@@ -1,5 +1,5 @@
 def main():
-  with open('input.txt') as f:
+  with open('./input.txt') as f:
     content = f.readlines()
   content = [x.strip() for x in content]
 
